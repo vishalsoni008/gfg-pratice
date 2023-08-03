@@ -1,0 +1,60 @@
+Height of Binary Tree	Solve
+Determine if two trees are identical	Solve
+Mirror tree	Solve
+Symmetric Tree	Solve
+Diameter of tree	Solve
+Checked for Balanced tree	Solve
+Children Sum Parent	Solve
+Check for BST	Solve
+Array to BST	Solve
+Largest value in each level of binary tree	Solve
+Maximum GCD of siblings of a binary tree	Solve
+Zigzag Tree Traversal	Solve
+Inorder Successor in BST	Solve
+Kth Largest Element in a BST	Solve
+Level 2
+Problems
+
+Solve
+
+Check if subtree	Solve
+Single Valued Subtree	Solve
+Unique BSTs	Solve
+Inorder Traversal (iterative)	Solve
+Preorder Traversal (iterative)	Solve
+Postorder Traversal(iterative)	Solve
+Vertical Traversal of a Binary Tree	Solve
+Boundary Traversal	Solve
+Construct Binary Tree from Parent array	Solve
+Construct Binary Tree from Preorder and Inorder Traversal	Solve
+Preorder Traversal and BST	Solve
+Construct tree from preorder traversal	Solve
+Minimum distance between two given nodes	Solve
+Maximum sum leaf to root path	Solve
+Odd Even Level Difference	Solve
+Lowest Common Ancestor of a Binary Tree	Solve
+Ancestors in Binary Tree	Solve
+Remove BST keys outside the given range	Solve
+Pair with given target in BST	Solve
+Sum Tree	Solve
+BST to greater sum tree	Solve
+BST to max heap	Solve
+Clone binary tree with random pointer	Solve
+Maximum sum of non adjacent nodes	Solve
+Largest BST in a Binary Tree	Solve
+Extreme nodes in alternate order	Solve
+Level 3
+Problems
+
+Solve
+
+Connect nodes at same level	Solve
+Nodes at given distance in a Binary Tree	Solve
+Sorted Linked List to BST	Solve
+Binary Tree to Doubly Linked List	Solve
+Maximum sum path between two leaf nodes	Solve
+K-Sum Paths	Solve
+Number of turns in a binary tree	Solve
+Merge two BST’s	Solve
+Fixing two nodes of a BST	Solve
+Burn Binary Tree	Solve
