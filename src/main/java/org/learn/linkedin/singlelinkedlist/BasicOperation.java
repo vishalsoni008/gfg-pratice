@@ -42,6 +42,75 @@ public class BasicOperation {
         }
         System.out.println("null");
     }
+
+    void insertAtIndex(int data, int index){
+        ListNode node = new ListNode(data);
+
+        if(index == 1){
+            ListNode r = head;
+            head = node;
+            node.next = r;
+        }
+        else{
+            ListNode temp = head;
+            int count = 1;
+            while (count<index-1){
+                temp = temp.next;
+                count++;
+            }
+            ListNode t1 = temp.next;
+            temp.next = node;
+            node.next = t1;
+        }
+    }
+
+    void deleteFirt(){
+        ListNode node = head;
+        head = head.next;
+    }
+
+    void deleteLast(){
+        ListNode node = head;
+
+        while (node.next.next != null){
+            node = node.next;
+        }
+        System.out.println(node.data);
+        node.next = null;
+    }
+
+    void deleteAtIndex(int index){
+        if(index == 1){
+            head = head.next;
+        }
+        else {
+            int count =1;
+            ListNode node = head;
+
+            while (count<index-1){
+                node = node.next;
+                count++;
+            }
+            ListNode curr = node.next;
+            node.next = node.next.next;
+            System.out.println(curr.data);
+        }
+    }
+
+    ListNode reverse(ListNode node){
+        ListNode curr = head;
+        ListNode nxt = null;
+        ListNode pre = null;
+
+        while (curr!=null){
+            nxt = curr.next;
+            curr.next = pre;
+            pre = curr;
+            curr = nxt;
+        }
+        return pre;
+    }
+
     public static void main(String[] args) {
         BasicOperation basicOperation = new BasicOperation();
 
@@ -52,6 +121,24 @@ public class BasicOperation {
 
         basicOperation.insert(5);
         basicOperation.insert(15);
+        basicOperation.print();
+
+        basicOperation.insertAtIndex(33,3);
+        basicOperation.print();
+
+        basicOperation.insertAtIndex(331121,1);
+        basicOperation.print();
+
+        basicOperation.deleteFirt();
+        basicOperation.print();
+
+        basicOperation.deleteLast();
+        basicOperation.print();
+
+        basicOperation.deleteAtIndex(3);
+        basicOperation.print();
+
+        basicOperation.head = basicOperation.reverse(basicOperation.head);
         basicOperation.print();
     }
 }
