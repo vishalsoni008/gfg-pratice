@@ -14,14 +14,9 @@ public class BasicOperation {
             tail = node;
         }
         else{
-            ListNode temp = head;
-
-            while (temp.next != null){
-                temp = temp.next;
-            }
-            temp.next = node;
+            tail.next = node;
+            node.pre = tail;
             tail = node;
-            node.pre = temp;
         }
 //        System.out.println(tail.data);
 //        if(node.pre!= null) {
